@@ -13,7 +13,7 @@ function saveChanges() {
     const owner = "ARCHM2022";
     const repoName = "ARCHM2022.github.io";
     const fileName = "index.html";
-    const accessToken = "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";
+    const accessToken = "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";
     const jsonData = JSON.stringify(data);
     const xhr = new XMLHttpRequest();
     xhr.open("PUT", "https://api.github.com/repos/" + owner + "/" + repoName + "/contents/" + fileName, true);
