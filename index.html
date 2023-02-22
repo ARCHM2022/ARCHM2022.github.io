@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Таблиця</title>
+  <style src="style.css">
+  </style>
+</head>
+<body>
+  <div id="password-form">
+    <label for="password-input">Введіть пароль:</label>
+    <input type="password" id="password-input">
+    <button id="password-button">ОК</button>
+  </div>
+  <div id="table-container" style="display: none">
+    <table id="table">
+      <thead>
+        <tr>
+          <th>№</th>
+          <th>Назва</th>
+          <th>Опис</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>1</td>
+          <td>Товар 1</td>
+          <td>Опис товару 1</td>
+        </tr>
+        <tr>
+          <td>2</td>
+          <td>Товар 2</td>
+          <td>Опис товару 2</td>
+        </tr>
+      </tbody>
+    </table>
+    <button id="edit-button">Редагувати таблицю</button>
+    <button id="save-button" style="display: none">Зберегти</button>
+  </div>
+  <script src="index.js"></script>
+</body>
+</html>
